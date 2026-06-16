@@ -2,7 +2,7 @@ import pandas as pd
 
 print(type(True))
 print(type(False))
-print(type(true))
+print(type(True))
 
 if 1:
   print("1 is truthy")
