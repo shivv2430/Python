@@ -36,5 +36,13 @@ b = int(input("Enter second number: "))
 
 if a > b:
     print(a, "is larger")
-else:
+else:   
     print(b, "is larger")
+
+#Check if Number is Vowel or Consonant
+char = input("Enter a character: ")
+
+if char in "aeiouAEIOU":
+    print("Vowel")
+else:
+    print("Consonant")
