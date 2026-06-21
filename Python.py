@@ -29,3 +29,12 @@ elif num < 0:
     print("Negative")
 else:
     print("Zero")
+
+#Find Largest of Two Numbers
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+if a > b:
+    print(a, "is larger")
+else:
+    print(b, "is larger")
