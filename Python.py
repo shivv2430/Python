@@ -11,3 +11,11 @@ b = int(input("Enter second number: "))
 
 sum = a + b
 print("Sum =", sum)
+
+# Check if Number is Even or Odd
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
