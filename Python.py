@@ -92,3 +92,11 @@ else:
 text = input("Enter a string: ")
 
 print(text[::-1])
+
+#Check Palindrome
+text = input("Enter a string: ")
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
