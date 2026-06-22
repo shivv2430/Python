@@ -87,3 +87,8 @@ if num > 1:
         print("Prime")
 else:
     print("Not Prime")
+
+#Reverse a String
+text = input("Enter a string: ")
+
+print(text[::-1])
