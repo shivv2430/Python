@@ -59,3 +59,9 @@ for i in range(1, n + 1):
     total += i
 
 print("Sum =", total)
+
+#Multiplication Table
+num = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(num, "x", i, "=", num * i)
