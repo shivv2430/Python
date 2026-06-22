@@ -46,3 +46,7 @@ if char in "aeiouAEIOU":
     print("Vowel")
 else:
     print("Consonant")
+
+#Print Numbers 1 to 10
+for i in range(1, 11):
+    print(i)
