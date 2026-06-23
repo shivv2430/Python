@@ -105,3 +105,9 @@ else:
 numbers = [10, 25, 5, 40, 15]
 
 print("Maximum =", max(numbers))
+
+#Function Example
+def greet(name):
+    print("Hello", name)
+
+greet("Shivani")
