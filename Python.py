@@ -100,3 +100,8 @@ if text == text[::-1]:
     print("Palindrome")
 else:
     print("Not Palindrome")
+
+#Reverse a String
+text = input("Enter a string: ")
+
+print(text[::-1])
