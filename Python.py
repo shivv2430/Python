@@ -148,3 +148,19 @@ if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
     print("Leap Year")
 else:
     print("Not a Leap Year")
+
+#Check Whether a Number is an Armstrong Number
+number = int(input("Enter a number: "))
+
+original = number
+sum = 0
+
+while number > 0:
+    digit = number % 10
+    sum = sum + digit ** 3
+    number = number // 10
+
+if original == sum:
+    print("Armstrong Number")
+else:
+    print("Not an Armstrong Number")
