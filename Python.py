@@ -199,3 +199,18 @@ sentence = input("Enter a sentence: ")
 words = sentence.split()
 
 print("Total words =", len(words))
+
+#Count Positive and Negative Numbers in a List
+numbers = [10, -2, 15, -8, 5, -1]
+
+positive = 0
+negative = 0
+
+for num in numbers:
+    if num >= 0:
+        positive = positive + 1
+    else:
+        negative = negative + 1
+
+print("Positive =", positive)
+print("Negative =", negative)
