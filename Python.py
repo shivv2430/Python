@@ -214,3 +214,14 @@ for num in numbers:
 
 print("Positive =", positive)
 print("Negative =", negative)
+
+#Find the Smallest Number in a List
+numbers = [10, 5, 23, 2, 15]
+
+smallest = numbers[0]
+
+for num in numbers:
+    if num < smallest:
+        smallest = num
+
+print("Smallest =", smallest)
