@@ -236,3 +236,15 @@ while number > 0:
     count = count + 1
 
 print("Total digits =", count)
+
+#Find the Sum of Digits of a Number
+number = int(input("Enter a number: "))
+
+sum = 0
+
+while number > 0:
+    digit = number % 10
+    sum = sum + digit
+    number = number // 10
+
+print("Sum of digits =", sum)
