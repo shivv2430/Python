@@ -248,3 +248,16 @@ while number > 0:
     number = number // 10
 
 print("Sum of digits =", sum)
+
+
+#Generate Fibonacci Series
+n = int(input("Enter number of terms: "))
+
+a = 0
+b = 1
+
+for i in range(n):
+    print(a)
+    c = a + b
+    a = b
+    b = c
